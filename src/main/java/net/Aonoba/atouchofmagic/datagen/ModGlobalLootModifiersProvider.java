@@ -15,7 +15,6 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
     public ModGlobalLootModifiersProvider(PackOutput output) {
 
         super(output, ATouchOfMagic.MOD_ID);
-
     }
     @Override
     protected void start(){
