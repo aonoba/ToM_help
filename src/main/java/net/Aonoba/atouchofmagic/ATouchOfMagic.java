@@ -1,5 +1,8 @@
 package net.Aonoba.atouchofmagic;
 import com.mojang.logging.LogUtils;
+import net.Aonoba.atouchofmagic.block.ModBlocks;
+import net.Aonoba.atouchofmagic.datagen.loot.ModLootModifiers;
+import net.Aonoba.atouchofmagic.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -21,6 +24,11 @@ public class ATouchOfMagic {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modEventBus.addListener(this::commonSetup);
+
+        ModBlocks.register(modEventBus);
+        ModItems.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);

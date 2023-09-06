@@ -1,0 +1,15 @@
+{
+  "item.atouchofmagic.fae_dust": "fae Dust",
+  "item.atouchofmagic.pixie_marrow": "Pixie Marrow",
+
+  "block.atouchofmagic.fae_steel_block": "Block of Fae Steel",
+  "block.atouchofmagic.pixie_marrow_block": "Block of Pixie Marrow",
+  "block.atouchofmagic.fae_dust_ore": "heap of fae dust",
+
+
+  "item.atouchofmagic.dowsing_rod": "dowsing wand",
+
+  "tooltip.atouchofmagic.dowsing_rod": "Can detect strong magic sources, magic that is well contained will not be detected",
+
+  "creativetab.a_touch_of_magic": "A Touch of Magic"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "atouchofmagic:pixie_marrow_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "atouchofmagic:pixie_marrow"
+  }
+}
